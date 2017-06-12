@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context="com.example.moonh.runit.LoginActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="374dp"
+        android:layout_height="82dp"
+        android:contentDescription=""
+        android:gravity="center"
+        app:srcCompat="@drawable/logo"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-27dp" />
+
+    <EditText
+        android:id="@+id/Input_Email"
+        android:layout_width="wrap_content"
+        android:layout_height="15pt"
+        android:layout_margin="2pt"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:hint="ID"
+        android:inputType="textPersonName"
+        android:textColor="#128D3B" />
+
+    <EditText
+        android:id="@+id/Input_Pw"
+        android:layout_width="wrap_content"
+        android:layout_height="15pt"
+        android:layout_margin="2pt"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="872dp"
+        tools:layout_editor_absoluteY="272dp" />
+
+    <Button
+        android:id="@+id/button_Login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="2pt"
+        android:background="@color/colorLogin"
+        android:ems="13"
+        android:text="Login"
+        android:onClick="bt_Login"
+        android:textColor="#128D3B"
+        tools:layout_editor_absoluteX="72dp"
+        tools:layout_editor_absoluteY="341dp" />
+
+    <Button
+        android:id="@+id/button_Join"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="2pt"
+        android:background="@color/colorLogin"
+        android:ems="13"
+        android:text="Join"
+        android:onClick="bt_Join"
+        android:textColor="#128D3B"
+        tools:layout_editor_absoluteX="72dp"
+        tools:layout_editor_absoluteY="414dp" />
+
+</LinearLayout>

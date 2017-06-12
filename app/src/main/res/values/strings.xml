@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Run it!</string>
+    <string name="statement">Running</string>
+    <string name="menu_walking">활동</string>
+    <string name="menu_history">운동내역</string>
+    <string name="menu_statictics">통계</string>
+    <string name="menu_setting">사용자설정</string>
+    <string name="menu_logout">로그아웃</string>
+    <string name="menu_join">Join</string>
+    <string name="Attribute_ID">ID</string>
+    <string name="Attribute_PW">Password</string>
+    <string name="Attribute_age">나이</string>
+    <string name="Attribute_Height">키</string>
+    <string name="Attribute_weight">몸무게</string>
+    <string name="walking_time">시간</string>
+    <string name="walking_distance">운동거리</string>
+</resources>

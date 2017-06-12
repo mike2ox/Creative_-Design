@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_Menu"
+        android:title="Menu"
+        android:icon="@drawable/menu"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/menu_Main"
+                android:title="Main" />
+            <item
+                android:id="@+id/menu_Record"
+                android:title="Exercise Record" />
+            <item
+                android:id="@+id/menu_Statistics"
+                android:title="Statistics" />
+            <item
+                android:id="@+id/menu_UserInfo"
+                android:title="UserInfo" />
+            <item
+                android:id="@+id/menu_Logout"
+                android:title="Logout" />
+        </menu>
+    </item>
+</menu>
